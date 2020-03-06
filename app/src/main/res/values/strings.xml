@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cookiter</string>
+    <string name="after_app_name">Register or sign in</string>
+    <string name="bottomText">Войдите в учётную запись или зарегистрируйтесь</string>
+    <string name="btnReg">Войти</string>
+    <string name="btnSign_in">Регистрация</string>
+</resources>
