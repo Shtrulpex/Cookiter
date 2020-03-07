@@ -60,7 +60,8 @@
             android:layout_marginRight="3dp"
             android:text="@string/btnReg"
             android:background="@drawable/btn_reg"
-            android:textColor="@android:color/black"/>
+            android:textColor="@android:color/black"
+            android:onClick="onRegbtnClick"/>
 
         <Button
             android:id="@+id/btnSignIn"
