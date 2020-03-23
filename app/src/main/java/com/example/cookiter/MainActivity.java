@@ -3,6 +3,7 @@ package com.example.cookiter;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,7 +16,7 @@ import com.rengwuxian.materialedittext.MaterialEditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnReg, btnSignIn;
+    Button btnReg;
     FirebaseAuth auth;
     FirebaseDatabase db;
     DatabaseReference users;
@@ -25,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnSignIn = (Button)findViewById(R.id.btnSignIn);
         btnReg = (Button)findViewById(R.id.btnReg);
 
         auth = FirebaseAuth.getInstance();
@@ -34,17 +34,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onRegbtnClick(View v){
-        AlertDialog.Builder alD = new AlertDialog.Builder(this);
-        alD.setTitle("Регистрация");
-        alD.setMessage("Введите данные");
-
-        LayoutInflater inflater = LayoutInflater.from(this);
-        View reg_window = inflater.inflate(R.layout.register_window, null);
-        alD.setView(reg_window);
-
-        MaterialEditText email = reg_window.findViewById(R.id.emailFill);
-        MaterialEditText login = reg_window.findViewById(R.id.loginFill);
-        MaterialEditText pass = reg_window.findViewById(R.id.passwordFill);
+    public void onRegBtnClick(View v){
+        Intent i = new Intent(MainActivity.this, RegisterActivity.class);
+        startActivity(i);
     }
 }

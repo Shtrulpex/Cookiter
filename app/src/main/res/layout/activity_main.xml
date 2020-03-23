@@ -61,18 +61,7 @@
             android:text="@string/btnReg"
             android:background="@drawable/btn_reg"
             android:textColor="@android:color/black"
-            android:onClick="onRegbtnClick"/>
-
-        <Button
-            android:id="@+id/btnSignIn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btnSign_in"
-            android:layout_marginRight="3dp"
-            android:layout_marginLeft="3dp"
-            android:background="@drawable/btn_sign_in"
-            android:textColor="@android:color/black"/>
+            android:onClick="onRegBtnClick"/>
 
 
     </LinearLayout>
