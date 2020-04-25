@@ -1,9 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activities.RegisterActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.SignInActivity">
+    android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/logEmailFill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Логин/Email"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textSize="20sp"
+            app:met_floatingLabel="normal" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/passwordFill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Пароль"
+            android:inputType="textPassword"
+            android:text=""
+            android:textSize="20sp"
+            app:met_floatingLabel="normal" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_sign_in"
+            android:onClick="signIn"
+            android:text="@string/bottomText"
+            android:textColor="@android:color/black" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -12,4 +12,10 @@ import retrofit2.http.Query;
 public interface RestApi {
     @POST("/user/create")
     Call<TrueFalseModel> create(@Body UserModel user);
+
+    @GET("/user/getUserAccessbyLog")
+    Call<TrueFalseModel> getAccessByLog(@Body UserModel user);
+
+    @GET("/user/getUserAccessbyEmail")
+    Call<TrueFalseModel> getAccessByEmail(@Body UserModel user);
 }

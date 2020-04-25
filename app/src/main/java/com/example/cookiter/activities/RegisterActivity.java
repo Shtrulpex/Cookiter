@@ -56,17 +56,19 @@ public class RegisterActivity extends AppCompatActivity {
         RestApi service = retrofit.create(RestApi.class);
         UserModel user = new UserModel();
 
-        user.email=email.getText().toString();
-        user.login = name.getText().toString();
-        user.password = pass.getText().toString().hashCode();
+        user.setEmail(email.getText().toString());
+        user.setLogin(name.getText().toString());
+        user.setPassword(pass.getText().toString().hashCode());
 
         Call<TrueFalseModel> call = service.create(user);
         call.enqueue(new Callback<TrueFalseModel>() {
             @Override
             public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
                 if(response.body().response==1){
-                    Toast.makeText(getApplicationContext(), "УДАЧА", Toast.LENGTH_LONG).show();
-                } else Toast.makeText(getApplicationContext(), "HEУДАЧА", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Вы успешно зарегистрировались!", Toast.LENGTH_LONG).show();
+                    Intent i = new Intent(RegisterActivity.this, SignInActivity.class);
+                    startActivity(i);
+                } else Toast.makeText(getApplicationContext(), "К сожалению такой логин уже существует, поменяйте его.", Toast.LENGTH_LONG).show();
             }
 
             @Override
