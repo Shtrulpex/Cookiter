@@ -4,20 +4,10 @@ ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\Androi
 INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-23:12
 INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-23:12
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\798f6ca7205fe4877c12b9826bef7b64\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e381afe66dc6bca211fd503337984f8b\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\daee6df2c31aab579f82be9a195199ab\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:17:1-42:12
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b297d7a7149179ab51dfb3bf2958791b\jetified-firebase-database-16.0.4\AndroidManifest.xml:15:1-25:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\08acf756127cae99092eba05c2a7248f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\0d591564b3e6b778da35397d9aa9ac79\play-services-flags-16.0.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\dd3eb03334f7eb0d996fe18f439df220\jetified-firebase-auth-interop-16.0.1\AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\847ad826933001a201adde739b4f9e0d\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\318e04956a285e6ac0c77fe3b7358531\firebase-database-collection-16.0.0\AndroidManifest.xml:2:1-8:12
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:17:1-28:12
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\262cee874a29045d29703cd5d56127c0\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\39315c60a56384d4a1906ee92b5ee0cd\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fc69b0f2a763c751281a0d5d3c86e038\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b003c351741550b194cdb6cf800bc712\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -31,7 +21,6 @@ MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Shtrul
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\5da003ad04bc8fdad9921e2eb26b2991\customview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\1a15599b2b3acac526499af7f12be30d\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ed4b00badddeff4748fb97b252a63a9b\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.media:media:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\886df16c747a87ca7b380bdbaa998077\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\16eb53875ba78320b1fcf5cac2c4c8c7\core-1.0.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\1faa9af26f007cd89ccf9acf835f2d84\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3fca54826ea9abcd3906e8e5dfff959c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -61,22 +50,14 @@ INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\And
 		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:4:22-64
 application
 ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\dd3eb03334f7eb0d996fe18f439df220\jetified-firebase-auth-interop-16.0.1\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\dd3eb03334f7eb0d996fe18f439df220\jetified-firebase-auth-interop-16.0.1\AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:9:5-15:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\847ad826933001a201adde739b4f9e0d\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\847ad826933001a201adde739b4f9e0d\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\16eb53875ba78320b1fcf5cac2c4c8c7\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\16eb53875ba78320b1fcf5cac2c4c8c7\core-1.0.1\AndroidManifest.xml:22:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\1faa9af26f007cd89ccf9acf835f2d84\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
@@ -95,60 +76,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Sh
 		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.cookiter.SignInActivity
-ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:12:9-61
+activity#com.example.cookiter.activities.MainActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:12:19-49
-activity#com.example.cookiter.MainActivity
-ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:13:9-19:20
-	android:name
-		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:13:19-47
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:12:19-58
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:27-74
-activity#com.example.cookiter.RegisterActivity
-ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:20:9-54
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.cookiter.activities.RegisterActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:9-65
 	android:name
-		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:20:19-51
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:19-62
+activity#com.example.cookiter.activities.SignInActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:20:9-72
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:20:19-60
 uses-sdk
 INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\798f6ca7205fe4877c12b9826bef7b64\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\798f6ca7205fe4877c12b9826bef7b64\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e381afe66dc6bca211fd503337984f8b\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e381afe66dc6bca211fd503337984f8b\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\daee6df2c31aab579f82be9a195199ab\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\daee6df2c31aab579f82be9a195199ab\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3586cf9e5d37a5be2bbe710dbdaeb36f\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b297d7a7149179ab51dfb3bf2958791b\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
-MERGED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b297d7a7149179ab51dfb3bf2958791b\jetified-firebase-database-16.0.4\AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\08acf756127cae99092eba05c2a7248f\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\08acf756127cae99092eba05c2a7248f\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\0d591564b3e6b778da35397d9aa9ac79\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\0d591564b3e6b778da35397d9aa9ac79\play-services-flags-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\dd3eb03334f7eb0d996fe18f439df220\jetified-firebase-auth-interop-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\dd3eb03334f7eb0d996fe18f439df220\jetified-firebase-auth-interop-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\847ad826933001a201adde739b4f9e0d\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\847ad826933001a201adde739b4f9e0d\jetified-play-services-tasks-16.0.1\AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\318e04956a285e6ac0c77fe3b7358531\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
-MERGED from [com.google.firebase:firebase-database-collection:16.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\318e04956a285e6ac0c77fe3b7358531\firebase-database-collection-16.0.0\AndroidManifest.xml:6:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\262cee874a29045d29703cd5d56127c0\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\262cee874a29045d29703cd5d56127c0\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\39315c60a56384d4a1906ee92b5ee0cd\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\39315c60a56384d4a1906ee92b5ee0cd\fragment-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fc69b0f2a763c751281a0d5d3c86e038\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
@@ -175,8 +136,6 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shtr
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\1a15599b2b3acac526499af7f12be30d\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ed4b00badddeff4748fb97b252a63a9b\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ed4b00badddeff4748fb97b252a63a9b\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\886df16c747a87ca7b380bdbaa998077\media-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.media:media:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\886df16c747a87ca7b380bdbaa998077\media-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\16eb53875ba78320b1fcf5cac2c4c8c7\core-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\16eb53875ba78320b1fcf5cac2c4c8c7\core-1.0.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\1faa9af26f007cd89ccf9acf835f2d84\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
@@ -211,63 +170,3 @@ INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\And
 		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
 		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
-activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
-	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
-	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
-	android:theme
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
-	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:31:13-47
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
-meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
-	android:value
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-auth:16.0.5] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\78f26934685d40265d5474f82b3f3a97\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b297d7a7149179ab51dfb3bf2958791b\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b297d7a7149179ab51dfb3bf2958791b\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b297d7a7149179ab51dfb3bf2958791b\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-database:16.0.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b297d7a7149179ab51dfb3bf2958791b\jetified-firebase-database-16.0.4\AndroidManifest.xml:23:22-64
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\ca3bef71189faf102461dcb26458287d\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\fa66f202f93b31b2a1400e8609da375c\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\7942a3980a5c349fe7f654ccb89008c9\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
