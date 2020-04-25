@@ -1,14 +1,13 @@
-package com.example.cookiter;
+package com.example.cookiter.activities;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
-import com.rengwuxian.materialedittext.MaterialEditText;
+
+import com.example.cookiter.R;
 
 public class MainActivity extends AppCompatActivity {
 

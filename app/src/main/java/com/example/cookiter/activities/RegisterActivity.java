@@ -1,4 +1,4 @@
-package com.example.cookiter;
+package com.example.cookiter.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,14 +8,22 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.cookiter.R;
+import com.example.cookiter.RestApi;
+import com.example.cookiter.models.TrueFalseModel;
+import com.example.cookiter.models.UserModel;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
-import org.json.JSONException;
-import org.json.JSONObject;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RegisterActivity extends AppCompatActivity {
 
     MaterialEditText email, pass, name;
+    private static String DB_URI = "https://cookiter.herokuapp.com/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,5 +52,27 @@ public class RegisterActivity extends AppCompatActivity {
             Toast.makeText(this, "Придумайте пароль подлиннее(не менее 6 символов)", Toast.LENGTH_LONG).show();
             return;
         }
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
+        RestApi service = retrofit.create(RestApi.class);
+        UserModel user = new UserModel();
+
+        user.email=email.getText().toString();
+        user.login = name.getText().toString();
+        user.password = pass.getText().toString().hashCode();
+
+        Call<TrueFalseModel> call = service.create(user);
+        call.enqueue(new Callback<TrueFalseModel>() {
+            @Override
+            public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
+                if(response.body().response==1){
+                    Toast.makeText(getApplicationContext(), "УДАЧА", Toast.LENGTH_LONG).show();
+                } else Toast.makeText(getApplicationContext(), "HEУДАЧА", Toast.LENGTH_LONG).show();
+            }
+
+            @Override
+            public void onFailure(Call<TrueFalseModel> call, Throwable t) {
+
+            }
+        });
     }
 }

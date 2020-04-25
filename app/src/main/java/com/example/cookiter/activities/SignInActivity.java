@@ -1,8 +1,10 @@
-package com.example.cookiter;
+package com.example.cookiter.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.cookiter.R;
 
 public class SignInActivity extends AppCompatActivity {
 
