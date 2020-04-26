@@ -43,19 +43,17 @@ public class SignInActivity extends AppCompatActivity {
 
         Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
         RestApi service = retrofit.create(RestApi.class);
-        UserModel user = new UserModel();
+        UserModel requestUser = new UserModel();
 
-        user.setPassword(pass.getText().toString().hashCode());
-        user.setLogin(loginEmail.getText().toString());
-        user.setEmail(loginEmail.getText().toString());
+        requestUser.setPassword(pass.getText().toString().hashCode());
+        requestUser.setLogin(loginEmail.getText().toString());
+        requestUser.setEmail(loginEmail.getText().toString());
 
-        Call<TrueFalseModel> call = service.getAccessByLog(user);
+        Call<TrueFalseModel> call = service.getAccessByLog(requestUser.getLogin(), requestUser.getPassword());
         call.enqueue(new Callback<TrueFalseModel>() {
             @Override
             public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
-                response1 = response.body().response;
-                System.out.println(response.raw());
-                System.out.println(response1);
+                response1=response.body().getResponse();
             }
 
             @Override
@@ -63,5 +61,22 @@ public class SignInActivity extends AppCompatActivity {
 
             }
         });
+
+        call = service.getAccessByEmail(requestUser.getEmail(), requestUser.getPassword());
+        call.enqueue(new Callback<TrueFalseModel>() {
+            @Override
+            public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
+                response2=response.body().getResponse();
+            }
+
+            @Override
+            public void onFailure(Call<TrueFalseModel> call, Throwable t) {
+
+            }
+        });
+
+        if(response1==1 || response2==1){
+            Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
+        } else Toast.makeText(getApplicationContext(), "Неверный логин или пароль", Toast.LENGTH_LONG).show();
     }
 }
