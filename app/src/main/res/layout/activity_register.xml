@@ -4,7 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".activities.RegisterActivity"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/black">
 
     <TextView
         android:layout_alignParentBottom="true"
@@ -15,7 +16,8 @@
         android:textColor="@color/bottomText"
         android:textSize="15sp"
         android:textAlignment="center"
-        android:onClick="onSignInClick"/>
+        android:onClick="onSignInClick"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,14 +28,17 @@
         android:gravity="center">
 
         <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/emailFill"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/emailFill"
             android:hint="Email"
             android:inputType="textEmailAddress"
             android:text=""
+            android:textColor="@color/bottomText"
             android:textSize="20sp"
-            app:met_floatingLabel="normal"/>
+            app:met_floatingLabel="normal"
+            app:met_baseColor="@color/wight"
+            app:met_errorColor="@color/btnSignIn"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
@@ -41,9 +46,12 @@
             android:id="@+id/loginFill"
             android:hint="Логин"
             android:inputType="text"
+            android:textColor="@color/bottomText"
             android:text=""
             android:textSize="20sp"
-            app:met_floatingLabel="normal"/>
+            app:met_floatingLabel="normal"
+            app:met_baseColor="@color/wight"
+            app:met_errorColor="@color/btnSignIn"/>
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
@@ -51,9 +59,14 @@
             android:id="@+id/passwordFill"
             android:hint="Пароль"
             android:inputType="textPassword"
+            android:textColor="@color/bottomText"
+            android:textColorHint="@color/bottomText"
             android:text=""
             android:textSize="20sp"
-            app:met_floatingLabel="normal"/>
+            app:met_floatingLabel="normal"
+            app:met_baseColor="@color/wight"
+            app:met_minCharacters="6"
+            app:met_errorColor="@color/btnSignIn"/>
 
         <Button
             android:id="@+id/btnReg"

@@ -2,6 +2,7 @@ package com.example.cookiter.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -22,9 +23,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class SignInActivity extends AppCompatActivity {
 
     MaterialEditText loginEmail, pass;
+    int response1, response2;
     private static String DB_URI = "https://cookiter.herokuapp.com/";
-    int response1;
-    int response2;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,14 +37,18 @@ public class SignInActivity extends AppCompatActivity {
         loginEmail = findViewById(R.id.logEmailFill);
         pass = findViewById(R.id.passwordFill);
 
-        if(TextUtils.isEmpty(loginEmail.getText().toString())||TextUtils.isEmpty(pass.getText().toString())){
-            Toast.makeText(this, "Вы заполнили не все поля", Toast.LENGTH_LONG).show();
+        if(TextUtils.isEmpty(loginEmail.getText().toString())){
+            loginEmail.setError("Вы не ввели свой логин");
             return;
         }
-
+        if(TextUtils.isEmpty(pass.getText().toString())){
+            pass.setError("Вы не ввели свой пароль");
+            return;
+        }
         Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
         RestApi service = retrofit.create(RestApi.class);
         UserModel requestUser = new UserModel();
+
 
         requestUser.setPassword(pass.getText().toString().hashCode());
         requestUser.setLogin(loginEmail.getText().toString());
@@ -53,7 +58,12 @@ public class SignInActivity extends AppCompatActivity {
         call.enqueue(new Callback<TrueFalseModel>() {
             @Override
             public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
-                response1=response.body().getResponse();
+                response1 = response.body().getResponse();
+                if(response.body().getResponse()==1){
+                    Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
+                    Intent i = new Intent(SignInActivity.this, MainActivity.class);
+                    startActivity(i);
+                }
             }
 
             @Override
@@ -62,21 +72,25 @@ public class SignInActivity extends AppCompatActivity {
             }
         });
 
-        call = service.getAccessByEmail(requestUser.getEmail(), requestUser.getPassword());
-        call.enqueue(new Callback<TrueFalseModel>() {
-            @Override
-            public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
-                response2=response.body().getResponse();
-            }
+        if(response1==0) {
+            call = service.getAccessByEmail(requestUser.getEmail(), requestUser.getPassword());
+            call.enqueue(new Callback<TrueFalseModel>() {
+                @Override
+                public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
+                    if (response.body().getResponse() == 1) {
+                        Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
+                        Intent i = new Intent(SignInActivity.this, MainActivity.class);
+                        startActivity(i);
+                    } else {
+                        pass.setError("Неверный логин или пароль");
+                    }
+                }
 
-            @Override
-            public void onFailure(Call<TrueFalseModel> call, Throwable t) {
+                @Override
+                public void onFailure(Call<TrueFalseModel> call, Throwable t) {
 
-            }
-        });
-
-        if(response1==1 || response2==1){
-            Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
-        } else Toast.makeText(getApplicationContext(), "Неверный логин или пароль", Toast.LENGTH_LONG).show();
+                }
+            });
+        }
     }
 }

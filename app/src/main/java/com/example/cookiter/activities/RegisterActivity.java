@@ -41,11 +41,11 @@ public class RegisterActivity extends AppCompatActivity {
 
     public void onRegBtn(View v){
         if(TextUtils.isEmpty(email.getText().toString())){
-            Toast.makeText(this, "Введите свою почту", Toast.LENGTH_LONG).show();
+            email.setError("Введите свою почту");
             return;
         }
         if(TextUtils.isEmpty(name.getText().toString())){
-            Toast.makeText(this, "Придумайте логин", Toast.LENGTH_LONG).show();
+            name.setError("Придумайте логин");
             return;
         }
         if(pass.getText().toString().length()<5){
@@ -68,7 +68,7 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Вы успешно зарегистрировались!", Toast.LENGTH_LONG).show();
                     Intent i = new Intent(RegisterActivity.this, SignInActivity.class);
                     startActivity(i);
-                } else Toast.makeText(getApplicationContext(), "К сожалению такой логин уже существует, поменяйте его.", Toast.LENGTH_LONG).show();
+                } else name.setError("К сожалению такой логин уже существует, придумайте новый");
             }
 
             @Override
