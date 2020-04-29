@@ -61,7 +61,7 @@ public class SignInActivity extends AppCompatActivity {
                 response1 = response.body().getResponse();
                 if(response.body().getResponse()==1){
                     Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
-                    Intent i = new Intent(SignInActivity.this, StartActivity.class);
+                    Intent i = new Intent(SignInActivity.this, MainActivity.class);
                     startActivity(i);
                 }
             }
@@ -79,7 +79,7 @@ public class SignInActivity extends AppCompatActivity {
                 public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
                     if (response.body().getResponse() == 1) {
                         Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
-                        Intent i = new Intent(SignInActivity.this, StartActivity.class);
+                        Intent i = new Intent(SignInActivity.this, MainActivity.class);
                         startActivity(i);
                     } else {
                         pass.setError("Неверный логин или пароль");
