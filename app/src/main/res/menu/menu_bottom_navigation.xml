@@ -3,15 +3,15 @@
 
     <item
         android:id="@+id/feed"
-        android:icon="@android:drawable/ic_input_get"
+        android:icon="@drawable/ic_view_headline_black_24dp"
         android:title="feed" />
     <item
         android:id="@+id/profile"
-        android:icon="@android:drawable/ic_menu_myplaces"
+        android:icon="@drawable/ic_account_circle_black_24dp"
         android:title="Profile" />
     <item
         android:id="@+id/preferences"
-        android:icon="@android:drawable/ic_menu_manage"
+        android:icon="@drawable/ic_settings_black_24dp"
         android:title="preferences" />
 
 </menu>

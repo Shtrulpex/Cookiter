@@ -15,7 +15,7 @@
 11-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:7:5-25:19
+13-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:7:5-26:19
 14        android:allowBackup="true"
 14-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -55,6 +55,9 @@
 32        <activity android:name="com.example.cookiter.activities.MainActivity" />
 32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:9-60
 32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:19-58
-33    </application>
-34
-35</manifest>
+33        <activity android:name="com.example.cookiter.activities.AddRecipeActivity" />
+33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:9-65
+33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:19-63
+34    </application>
+35
+36</manifest>

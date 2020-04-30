@@ -5,15 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/btnReg</item>
         <item name="colorPrimaryDark">@color/btnSignIn</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:windowFullscreen">true</item>
-    </style>
-
-    <style name="BottomMenu" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/btnReg</item>
-        <item name="colorPrimaryDark">@color/btnSignIn</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">@color/btnSignIn</item>
         <item name="android:windowFullscreen">true</item>
     </style>
 

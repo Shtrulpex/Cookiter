@@ -36,9 +36,9 @@
             android:text=""
             android:textColor="@color/bottomText"
             android:textSize="20sp"
-            app:met_floatingLabel="normal"
             app:met_baseColor="@color/wight"
-            app:met_errorColor="@color/btnSignIn"/>
+            app:met_errorColor="@color/btnSignIn"
+            app:met_floatingLabel="normal" />
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:layout_width="match_parent"
