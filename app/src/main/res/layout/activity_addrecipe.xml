@@ -41,6 +41,31 @@
                 app:met_errorColor="@color/btnSignIn"
                 app:met_floatingLabel="normal" />
 
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Продукты:"
+                android:textColor="@color/wight"
+                android:textSize="22sp" />
+
+            <ListView
+                android:id="@+id/productsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/btn_reg"
+                android:onClick="addProduct"
+                android:text="Добавить продукт"
+                android:textColor="@android:color/black" />
+
             <com.rengwuxian.materialedittext.MaterialEditText
                 android:id="@+id/recipeBody"
                 android:layout_width="match_parent"

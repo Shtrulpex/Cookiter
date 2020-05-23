@@ -1,7 +1,10 @@
 package com.example.cookiter;
 
+import com.example.cookiter.models.ProductsModel;
 import com.example.cookiter.models.TrueFalseModel;
 import com.example.cookiter.models.UserModel;
+
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.Body;
@@ -19,4 +22,7 @@ public interface RestApi {
 
     @GET("/user/getUserAccessbyEmail")
     Call<TrueFalseModel> getAccessByEmail(@Query("email") String email, @Query("password") int password );
+
+    @GET("/pr/getAll")
+    Call<List<ProductsModel>> getAllProducts();
 }

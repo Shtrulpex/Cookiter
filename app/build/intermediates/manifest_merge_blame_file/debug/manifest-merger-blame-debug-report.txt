@@ -6,58 +6,61 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+8-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+9-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:5:5-67
-11-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:5:22-64
+11-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:5:22-64
 12
 13    <application
-13-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:7:5-26:19
+13-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:7:5-27:19
 14        android:allowBackup="true"
-14-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:8:9-35
+14-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:8:9-35
 15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-15-->[androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\16eb53875ba78320b1fcf5cac2c4c8c7\core-1.0.1\AndroidManifest.xml:22:18-86
+15-->[androidx.core:core:1.0.1] /home/shtrulpex/.gradle/caches/transforms-2/files-2.1/16eb53875ba78320b1fcf5cac2c4c8c7/core-1.0.1/AndroidManifest.xml:22:18-86
 16        android:debuggable="true"
 17        android:icon="@drawable/ic_appicon"
-17-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:9:9-44
+17-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:9:9-44
 18        android:label="@string/app_name"
-18-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:10:9-41
+18-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:10:9-41
 19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:11:9-54
+19-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
-20-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:12:9-35
+20-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:12:9-35
 21        android:testOnly="true"
 22        android:theme="@style/AppTheme" >
-22-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:13:9-40
+22-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:13:9-40
 23        <activity android:name="com.example.cookiter.activities.StartActivity" >
-23-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:9-21:20
-23-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:19-59
+23-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:15:9-21:20
+23-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:15:19-59
 24            <intent-filter>
-24-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:16:13-20:29
+24-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:16:13-20:29
 25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:17-69
-25-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:25-66
+25-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:17:17-69
+25-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:17:25-66
 26
 27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:17-77
-27-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:27-74
+27-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:19:17-77
+27-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:19:27-74
 28            </intent-filter>
 29        </activity>
 30        <activity android:name="com.example.cookiter.activities.RegisterActivity" />
-30-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:9-65
-30-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:19-62
+30-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:22:9-65
+30-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:22:19-62
 31        <activity android:name="com.example.cookiter.activities.SignInActivity" />
-31-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:9-63
-31-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:19-60
+31-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:23:9-63
+31-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:23:19-60
 32        <activity android:name="com.example.cookiter.activities.MainActivity" />
-32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:9-60
-32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:19-58
+32-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:24:9-60
+32-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:24:19-58
 33        <activity android:name="com.example.cookiter.activities.AddRecipeActivity" />
-33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:9-65
-33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:19-63
-34    </application>
-35
-36</manifest>
+33-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:25:9-65
+33-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:25:19-63
+34        <activity android:name="com.example.cookiter.activities.AddProductActivity" />
+34-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:26:9-66
+34-->/home/shtrulpex/AndroidStudioProjects/Cookiter/app/src/main/AndroidManifest.xml:26:19-64
+35    </application>
+36
+37</manifest>
