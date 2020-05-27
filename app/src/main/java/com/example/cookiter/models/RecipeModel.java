@@ -2,9 +2,9 @@ package com.example.cookiter.models;
 
 public class RecipeModel {
     String recipe, name, author;
-    String[] products;
+    Integer[] products;
 
-    public RecipeModel(String recipe, String name, String author, String[] products) {
+    public RecipeModel(String recipe, String name, String author, Integer[] products) {
         this.recipe = recipe;
         this.name = name;
         this.author = author;
@@ -23,7 +23,7 @@ public class RecipeModel {
         return author;
     }
 
-    public String[] getProducts() {
+    public Integer[] getProducts() {
         return products;
     }
 
@@ -39,7 +39,7 @@ public class RecipeModel {
         this.author = author;
     }
 
-    public void setProducts(String[] products) {
+    public void setProducts(Integer[] products) {
         this.products = products;
     }
 }

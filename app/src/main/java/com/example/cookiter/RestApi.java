@@ -25,4 +25,12 @@ public interface RestApi {
 
     @GET("/pr/getAll")
     Call<List<ProductsModel>> getAllProducts();
+
+    @GET("/user/getUserByEmail")
+    Call<UserModel> getUserByEmail(@Query("email") String email);
+
+    @GET("/user/getUserByLog")
+    Call<UserModel> getUserByLog(@Query("login") String login);
+
+
 }

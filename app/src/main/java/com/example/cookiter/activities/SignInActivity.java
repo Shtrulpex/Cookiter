@@ -46,7 +46,7 @@ public class SignInActivity extends AppCompatActivity {
             return;
         }
         Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
-        RestApi service = retrofit.create(RestApi.class);
+        final RestApi service = retrofit.create(RestApi.class);
         UserModel requestUser = new UserModel();
 
 
@@ -54,14 +54,17 @@ public class SignInActivity extends AppCompatActivity {
         requestUser.setLogin(loginEmail.getText().toString());
         requestUser.setEmail(loginEmail.getText().toString());
 
+        final UserModel user = requestUser;
+
         Call<TrueFalseModel> call = service.getAccessByLog(requestUser.getLogin(), requestUser.getPassword());
         call.enqueue(new Callback<TrueFalseModel>() {
             @Override
             public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
                 response1 = response.body().getResponse();
                 if(response.body().getResponse()==1){
-                    Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
                     Intent i = new Intent(SignInActivity.this, MainActivity.class);
+                    i.putExtra("login", user.getLogin());
+                    i.putExtra("emailLog", false);
                     startActivity(i);
                 }
             }
@@ -78,8 +81,10 @@ public class SignInActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
                     if (response.body().getResponse() == 1) {
-                        Toast.makeText(getApplicationContext(), "Вы успешно вошли", Toast.LENGTH_LONG).show();
+
                         Intent i = new Intent(SignInActivity.this, MainActivity.class);
+                        i.putExtra("login", user.getEmail());
+                        i.putExtra("emailLog", true);
                         startActivity(i);
                     } else {
                         pass.setError("Неверный логин или пароль");

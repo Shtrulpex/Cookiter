@@ -15,6 +15,7 @@ import com.example.cookiter.R;
 import com.example.cookiter.RestApi;
 import com.example.cookiter.models.ProductsModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import retrofit2.Call;
@@ -52,9 +53,15 @@ public class AddProductActivity  extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> parent, View view, int position, long d) {
                         Toast.makeText(getApplicationContext(), ((TextView)view).getText(), Toast.LENGTH_SHORT).show();
                         Intent i = new Intent(AddProductActivity.this, AddRecipeActivity.class);
+                        ArrayList<String> ls = getIntent().getStringArrayListExtra("ls");
+                        ArrayList<Integer> idL = getIntent().getIntegerArrayListExtra("idL");
 
-                        i.putExtra("ls", getIntent().getStringArrayListExtra("ls").add(response.body().get((int)d).getName()));
-                        i.putExtra("idL", getIntent().getIntegerArrayListExtra("idL").add(response.body().get((int)d).getId()));
+                        ls.add(((TextView)view).getText().toString());
+                        idL.add(response.body().get((int)d).getId());
+                        i.putExtra("ls", ls);
+                        i.putExtra("idL", idL);
+                        i.putExtra("k", true);
+                        i.putExtra("login", getIntent().getStringExtra("login"));
                         startActivity(i);
                     }
                 });

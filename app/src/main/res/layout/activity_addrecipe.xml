@@ -90,6 +90,7 @@
         android:layout_alignParentBottom="true"
         android:layout_margin="10dp"
         android:clickable="true"
-        app:srcCompat="@drawable/ic_add_black_24dp" />
+        app:srcCompat="@drawable/ic_add_black_24dp"
+        android:onClick="addRecipe"/>
 
 </RelativeLayout>
