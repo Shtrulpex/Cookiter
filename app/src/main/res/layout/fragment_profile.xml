@@ -18,7 +18,8 @@
         android:id="@+id/add"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Добавить рецепт" />
+        android:text="Добавить рецепт"
+        android:background="@drawable/btn_sign_in"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv1"

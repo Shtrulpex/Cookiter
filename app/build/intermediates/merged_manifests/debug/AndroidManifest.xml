@@ -32,6 +32,7 @@
         <activity android:name="com.example.cookiter.activities.MainActivity" />
         <activity android:name="com.example.cookiter.activities.AddRecipeActivity" />
         <activity android:name="com.example.cookiter.activities.AddProductActivity" />
+        <activity android:name="com.example.cookiter.activities.OtherProfileActivity" />
     </application>
 
 </manifest>

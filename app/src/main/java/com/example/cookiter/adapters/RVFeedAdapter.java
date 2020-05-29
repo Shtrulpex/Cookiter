@@ -2,6 +2,7 @@ package com.example.cookiter.adapters;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +15,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.cookiter.R;
 import com.example.cookiter.RestApi;
+import com.example.cookiter.activities.MainActivity;
+import com.example.cookiter.activities.OtherProfileActivity;
 import com.example.cookiter.models.ProductsModel;
 import com.example.cookiter.models.RecipeModel;
 
@@ -50,6 +53,12 @@ public class RVFeedAdapter extends RecyclerView.Adapter<RVFeedAdapter.RVFeedHold
     public RVFeedAdapter(ArrayList<RecipeModel> data, Context context, String login){
         this.data = data;
         this.context = context;
+        this.login = login;
+    }
+    public RVFeedAdapter(ArrayList<RecipeModel> data, Context context){
+        this.data = data;
+        this.context = context;
+
     }
 
     @Override
@@ -120,6 +129,16 @@ public class RVFeedAdapter extends RecyclerView.Adapter<RVFeedAdapter.RVFeedHold
         author.setText("Автор: "+recipeModel.getAuthor());
         recipe.setText("Рецепт: "+recipeModel.getRecipe());
         name.setText(recipeModel.getName());
+
+        author.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(context, OtherProfileActivity.class);
+                i.putExtra("login", login);
+                i.putExtra("profile", ((TextView)v).getText().toString());
+                context.startActivity(i);
+            }
+        });
 
         ad.setView(recipe_window);
         ad.show();

@@ -24,6 +24,7 @@
         <activity android:name=".activities.MainActivity"/>
         <activity android:name=".activities.AddRecipeActivity"/>
         <activity android:name=".activities.AddProductActivity"/>
+        <activity android:name=".activities.OtherProfileActivity"/>
     </application>
 
 </manifest>

@@ -9,9 +9,5 @@
         android:id="@+id/profile"
         android:icon="@drawable/ic_account_circle_black_24dp"
         android:title="Profile" />
-    <item
-        android:id="@+id/preferences"
-        android:icon="@drawable/ic_settings_black_24dp"
-        android:title="preferences" />
 
 </menu>
