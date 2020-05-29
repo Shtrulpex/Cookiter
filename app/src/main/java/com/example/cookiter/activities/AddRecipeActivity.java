@@ -38,7 +38,7 @@ public class AddRecipeActivity extends AppCompatActivity {
         ls = new ArrayList<>();
         idL = new ArrayList<>();
         ls.add("");
-        idL.add(-1);
+        idL.add(0);
         name = findViewById(R.id.recipeName);
         body = findViewById(R.id.recipeBody);
     }

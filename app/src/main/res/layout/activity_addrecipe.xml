@@ -52,7 +52,7 @@
             <ListView
                 android:id="@+id/productsList"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="138dp"
                 android:layout_weight="1" />
 
             <Button

@@ -35,14 +35,17 @@ public class FeedFragment extends Fragment {
         return new FeedFragment();
     }
 
+    String login;
     ArrayList<RecipeModel> recipes;
     private static RecyclerView.Adapter adapter;
     RecyclerView rv;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_feed, container, false);
         rv = view.findViewById(R.id.rv);
+        login = this.getArguments().getString("login");
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());
         rv.setLayoutManager(llm);
 
@@ -58,7 +61,7 @@ public class FeedFragment extends Fragment {
                 for(int i=0;i<response.body().size();i++){
                     recipes.add(response.body().get(i));
                 }
-                adapter = new RVFeedAdapter(recipes);
+                adapter = new RVFeedAdapter(recipes, FeedFragment.this.getActivity(), login);
                 rv.setAdapter(adapter);
             }
 

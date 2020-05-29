@@ -48,6 +48,7 @@ public interface RestApi {
     @GET("/pr/getById")
     Call<String[]> getPrById(@Query("id")Integer id[]);
 
-    @GET()
+    @GET("/rec/getByLog")
+    Call<List<RecipeModel>> getByLog(@Query("login")String login);
 
 }
