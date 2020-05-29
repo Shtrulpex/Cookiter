@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.cookiter.R;
 import com.example.cookiter.RestApi;
@@ -52,15 +53,21 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        user = new UserModel();
+        user.setLogin(getIntent().getStringExtra("login"));
+
         setContentView(R.layout.activity_main2);
+        Fragment fragment = new FeedFragment();
+        Bundle bundle = new Bundle();
+        bundle.putString("login", user.getLogin());
+        fragment.setArguments(bundle);
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
         transaction.replace(R.id.frame, new FeedFragment());
         transaction.commit();
 
         bottomNavigationView= findViewById(R.id.navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener);
-
-        getUser(getIntent().getStringExtra("login"), getIntent().getBooleanExtra("emailLog", false));
     }
     private void setFragment(Fragment fragment){
         Bundle bundle = new Bundle();
@@ -69,40 +76,5 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction transaction = getFragmentManager().beginTransaction();
         transaction.replace(R.id.frame, fragment);
         transaction.commit();
-    }
-    private void getUser(String login, boolean emailLog){
-
-        Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
-        final RestApi service = retrofit.create(RestApi.class);
-
-        if(emailLog){
-            Call<UserModel> call = service.getUserByEmail(login);
-            call.enqueue(new Callback<UserModel>() {
-                @Override
-                public void onResponse(Call<UserModel> call, Response<UserModel> response) {
-                    user=response.body();
-                    System.out.println(user.getLogin());
-                }
-
-                @Override
-                public void onFailure(Call<UserModel> call, Throwable t) {
-
-                }
-            });
-        }else{
-            Call<UserModel> call = service.getUserByLog(login);
-            call.enqueue(new Callback<UserModel>() {
-                @Override
-                public void onResponse(Call<UserModel> call, Response<UserModel> response) {
-                    user=response.body();
-                    System.out.println(user.getEmail());
-                }
-
-                @Override
-                public void onFailure(Call<UserModel> call, Throwable t) {
-
-                }
-            });
-        }
     }
 }

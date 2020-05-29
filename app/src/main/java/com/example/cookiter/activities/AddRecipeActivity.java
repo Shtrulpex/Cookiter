@@ -2,10 +2,12 @@ package com.example.cookiter.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.cookiter.R;
@@ -81,13 +83,29 @@ public class AddRecipeActivity extends AppCompatActivity {
 
     public void addRecipe(View v){
 
-        Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
-        RestApi service = retrofit.create(RestApi.class);
+        if(TextUtils.isEmpty(name.getText().toString())){
+            name.setError("Это поле обязательно для заполнения");
+            return;
+        }
+
+        if(TextUtils.isEmpty(body.getText().toString())){
+            body.setError("Это поле обязательно для заполнения");
+            return;
+        }
+
+        if(idL.size()<2){
+            Toast.makeText(this, "Вы не добавили ни одного продукта", Toast.LENGTH_LONG).show();
+        }
+
+        final Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
+        final RestApi service = retrofit.create(RestApi.class);
 
         Integer id[] = new Integer[idL.size()];
         for (int i = 0; i < idL.size(); i++) {
             id[i] = idL.get(i);
         }
+
+        final String login = getIntent().getStringExtra("login");
 
         RecipeModel recipe = new RecipeModel();
         recipe.setAuthor(getIntent().getStringExtra("login"));
@@ -103,7 +121,21 @@ public class AddRecipeActivity extends AppCompatActivity {
                 System.out.println(response.body().getId());
                 Integer prId[]=response.body().getProducts();
                 for(int i=1;i<prId.length;i++){
+                    Call<TrueFalseModel> call1 = service.updateProduct(prId[i], response.body().getId());
+                    call1.enqueue(new Callback<TrueFalseModel>() {
+                        @Override
+                        public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
+                            System.out.println(response.body().getResponse());
+                            Intent i = new Intent(AddRecipeActivity.this, MainActivity.class);
+                            i.putExtra("login", login);
+                            startActivity(i);
+                        }
 
+                        @Override
+                        public void onFailure(Call<TrueFalseModel> call, Throwable t) {
+
+                        }
+                    });
                 }
             }
 

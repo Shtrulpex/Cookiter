@@ -81,11 +81,23 @@ public class SignInActivity extends AppCompatActivity {
                 @Override
                 public void onResponse(Call<TrueFalseModel> call, Response<TrueFalseModel> response) {
                     if (response.body().getResponse() == 1) {
+                        Call<UserModel> call1 = service.getUserByEmail(user.getEmail());
+                        call1.enqueue(new Callback<UserModel>() {
+                            @Override
+                            public void onResponse(Call<UserModel> call, Response<UserModel> response) {
+                                Intent i = new Intent(SignInActivity.this, MainActivity.class);
+                                i.putExtra("login", response.body().getLogin());
+                                startActivity(i);
+                                System.out.println(user.getLogin());
+                            }
 
-                        Intent i = new Intent(SignInActivity.this, MainActivity.class);
-                        i.putExtra("login", user.getEmail());
-                        i.putExtra("emailLog", true);
-                        startActivity(i);
+                            @Override
+                            public void onFailure(Call<UserModel> call, Throwable t) {
+
+                            }
+                        });
+
+
                     } else {
                         pass.setError("Неверный логин или пароль");
                     }
