@@ -1,5 +1,7 @@
 package com.example.cookiter;
 
+import android.content.Intent;
+
 import com.example.cookiter.models.ProductsModel;
 import com.example.cookiter.models.RecipeModel;
 import com.example.cookiter.models.TrueFalseModel;
@@ -40,5 +42,12 @@ public interface RestApi {
     @PUT("/pr/update")
     Call<TrueFalseModel> updateProduct(@Query("id") Integer id, @Query("recipeId") Integer recipeId);
 
+    @GET("/rec/getAll")
+    Call<List<RecipeModel>> getAllRecipes();
+
+    @GET("/pr/getById")
+    Call<String[]> getPrById(@Query("id")Integer id[]);
+
+    @GET()
 
 }

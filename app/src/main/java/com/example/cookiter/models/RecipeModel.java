@@ -4,15 +4,6 @@ public class RecipeModel {
     String recipe, name, author;
     Integer[] products;
     Integer id;
-    String ar;
-
-    public void setAr(String ar) {
-        this.ar = ar;
-    }
-
-    public String getAr() {
-        return ar;
-    }
 
     public void setId(Integer id) {
         this.id = id;
