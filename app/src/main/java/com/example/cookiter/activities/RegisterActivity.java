@@ -48,7 +48,7 @@ public class RegisterActivity extends AppCompatActivity {
             name.setError("Придумайте логин");
             return;
         }
-        if(pass.getText().toString().length()<5){
+        if(pass.getText().toString().length()<6){
             Toast.makeText(this, "Придумайте пароль подлиннее(не менее 6 символов)", Toast.LENGTH_LONG).show();
             return;
         }

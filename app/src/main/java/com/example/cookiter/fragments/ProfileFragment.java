@@ -51,7 +51,6 @@ public class ProfileFragment extends Fragment {
         TextView profileName = (TextView)rootView.findViewById(R.id.profileName);
 
         login = this.getArguments().getString("login");
-        Toast.makeText(this.getActivity().getApplicationContext(), login, Toast.LENGTH_LONG).show();
 
         profileName.setText(login);
 
