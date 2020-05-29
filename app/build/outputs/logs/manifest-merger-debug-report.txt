@@ -1,0 +1,199 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\4e273dda6b45af622d8b32f37a193fe3\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2fb0ed00c3dfc4b66416cc8717ff5a07\material-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\bbcc976e342d0ba37516a9b52a945077\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c4e0c36f3179363994d182b2300b1b9b\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\56425925acd742a95102d9198b8268a9\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e092ce1a9ae5c9a701252fd183ec39b7\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\17cebfc99783553e9ccd36d3d8563a7c\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\5cf0ad0749399ddc60e3a7de56c9c893\vectordrawable-animated-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6108758e4e563cc5daf77399efd5f771\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\00f8f3ac4cff477825623c16d2141a2b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\df01b5c5f7bc30aa3215af4629aa800f\vectordrawable-1.0.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e4f692714fc3d592b29aa82718429c43\transition-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c252f288fb6c9b3c5c42a50fd7a6f2c0\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2bc275a6fadce3206523ec7bb8b2fc33\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\f83f229b459c6503c8f409a6bd829d72\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\50186ee8f2980bae9a5688b37a10b28d\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e67737094954067c5cc2920970d9348f\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c0ca7360b05c2e67f9d078f3e8055cc9\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b2446056b24cc8371c5aff6eb6b96c17\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\97dd23b9dfa7eaa28bd6529f19a39564\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2536dae3047e4aa751685a43d6167b19\core-1.0.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6159653e319922b5d51f032cc6edacc9\versionedparcelable-1.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\799f5191d034fa788883b4169b9a1c04\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\371b132d7aad9e1445aa0fb49f68ddf4\lifecycle-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\177b3489fdc89247aaa2446c4d006309\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3c7e4399e112e13187c0d082c31b6f1f\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\9ebf1b4e87332250004e328b2a97ab08\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e4e30e8023995c111e818e5a511b9802\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e21fbc3bb303474eb9cd3fb2d5fe27ab\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\8bf2f12de099ce6488834c0351128d52\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\f62edf6b30025870309420d743344b52\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\254f4f53d13320bf8e163af1f23ba689\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:3:5-35
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:1-30:12
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:7:5-28:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2fb0ed00c3dfc4b66416cc8717ff5a07\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2fb0ed00c3dfc4b66416cc8717ff5a07\material-1.0.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c4e0c36f3179363994d182b2300b1b9b\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c4e0c36f3179363994d182b2300b1b9b\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2536dae3047e4aa751685a43d6167b19\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2536dae3047e4aa751685a43d6167b19\core-1.0.1\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6159653e319922b5d51f032cc6edacc9\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6159653e319922b5d51f032cc6edacc9\versionedparcelable-1.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2536dae3047e4aa751685a43d6167b19\core-1.0.1\AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:9:9-44
+	android:allowBackup
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.cookiter.activities.StartActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:19-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:27-74
+activity#com.example.cookiter.activities.RegisterActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:9-65
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:19-62
+activity#com.example.cookiter.activities.SignInActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:9-63
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:19-60
+activity#com.example.cookiter.activities.MainActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:9-60
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:19-58
+activity#com.example.cookiter.activities.AddRecipeActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:9-65
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:19-63
+activity#com.example.cookiter.activities.AddProductActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:26:9-66
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:26:19-64
+activity#com.example.cookiter.activities.OtherProfileActivity
+ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:27:9-68
+	android:name
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:27:19-66
+uses-sdk
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\4e273dda6b45af622d8b32f37a193fe3\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\4e273dda6b45af622d8b32f37a193fe3\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2fb0ed00c3dfc4b66416cc8717ff5a07\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2fb0ed00c3dfc4b66416cc8717ff5a07\material-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\bbcc976e342d0ba37516a9b52a945077\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\bbcc976e342d0ba37516a9b52a945077\appcompat-1.0.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c4e0c36f3179363994d182b2300b1b9b\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c4e0c36f3179363994d182b2300b1b9b\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\56425925acd742a95102d9198b8268a9\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\56425925acd742a95102d9198b8268a9\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e092ce1a9ae5c9a701252fd183ec39b7\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e092ce1a9ae5c9a701252fd183ec39b7\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\17cebfc99783553e9ccd36d3d8563a7c\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\17cebfc99783553e9ccd36d3d8563a7c\fragment-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\5cf0ad0749399ddc60e3a7de56c9c893\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\5cf0ad0749399ddc60e3a7de56c9c893\vectordrawable-animated-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6108758e4e563cc5daf77399efd5f771\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6108758e4e563cc5daf77399efd5f771\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\00f8f3ac4cff477825623c16d2141a2b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\00f8f3ac4cff477825623c16d2141a2b\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\df01b5c5f7bc30aa3215af4629aa800f\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\df01b5c5f7bc30aa3215af4629aa800f\vectordrawable-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e4f692714fc3d592b29aa82718429c43\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e4f692714fc3d592b29aa82718429c43\transition-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c252f288fb6c9b3c5c42a50fd7a6f2c0\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c252f288fb6c9b3c5c42a50fd7a6f2c0\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2bc275a6fadce3206523ec7bb8b2fc33\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2bc275a6fadce3206523ec7bb8b2fc33\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\f83f229b459c6503c8f409a6bd829d72\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\f83f229b459c6503c8f409a6bd829d72\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\50186ee8f2980bae9a5688b37a10b28d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\50186ee8f2980bae9a5688b37a10b28d\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e67737094954067c5cc2920970d9348f\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e67737094954067c5cc2920970d9348f\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c0ca7360b05c2e67f9d078f3e8055cc9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\c0ca7360b05c2e67f9d078f3e8055cc9\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b2446056b24cc8371c5aff6eb6b96c17\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\b2446056b24cc8371c5aff6eb6b96c17\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\97dd23b9dfa7eaa28bd6529f19a39564\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\97dd23b9dfa7eaa28bd6529f19a39564\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2536dae3047e4aa751685a43d6167b19\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\2536dae3047e4aa751685a43d6167b19\core-1.0.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6159653e319922b5d51f032cc6edacc9\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\6159653e319922b5d51f032cc6edacc9\versionedparcelable-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\799f5191d034fa788883b4169b9a1c04\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\799f5191d034fa788883b4169b9a1c04\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\371b132d7aad9e1445aa0fb49f68ddf4\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\371b132d7aad9e1445aa0fb49f68ddf4\lifecycle-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\177b3489fdc89247aaa2446c4d006309\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\177b3489fdc89247aaa2446c4d006309\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3c7e4399e112e13187c0d082c31b6f1f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\3c7e4399e112e13187c0d082c31b6f1f\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\9ebf1b4e87332250004e328b2a97ab08\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\9ebf1b4e87332250004e328b2a97ab08\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e4e30e8023995c111e818e5a511b9802\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e4e30e8023995c111e818e5a511b9802\lifecycle-viewmodel-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e21fbc3bb303474eb9cd3fb2d5fe27ab\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\e21fbc3bb303474eb9cd3fb2d5fe27ab\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\8bf2f12de099ce6488834c0351128d52\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\8bf2f12de099ce6488834c0351128d52\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\f62edf6b30025870309420d743344b52\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\f62edf6b30025870309420d743344b52\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\254f4f53d13320bf8e163af1f23ba689\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Shtrulpex\.gradle\caches\transforms-2\files-2.1\254f4f53d13320bf8e163af1f23ba689\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml
