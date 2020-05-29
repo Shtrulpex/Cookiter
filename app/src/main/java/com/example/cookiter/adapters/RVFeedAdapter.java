@@ -109,7 +109,7 @@ public class RVFeedAdapter extends RecyclerView.Adapter<RVFeedAdapter.RVFeedHold
             public void onClick(View v) {
                 for(int i =data.size()-1;i>=0;i--){
                     if(((TextView)v.findViewById(R.id.name)).getText().toString().equals("Название: "+data.get(i).getName())){
-                        showAlert(data.get(i));
+                        showAlert(data.get(i), listPosition);
                         System.out.println("otlichno");
                     }else System.out.println(((TextView)v.findViewById(R.id.name)).getText().toString());
                 }
@@ -117,18 +117,43 @@ public class RVFeedAdapter extends RecyclerView.Adapter<RVFeedAdapter.RVFeedHold
         });
     }
 
-    private void showAlert(RecipeModel recipeModel) {
+    private void showAlert(RecipeModel recipeModel, final int listPosition) {
         AlertDialog.Builder ad = new AlertDialog.Builder(context);
 
         LayoutInflater inflater = LayoutInflater.from(context);
         View recipe_window = inflater.inflate(R.layout.recipe_window, null);
         TextView author = recipe_window.findViewById(R.id.author_win);
-        TextView products = recipe_window.findViewById(R.id.prod);
+        final TextView products = recipe_window.findViewById(R.id.prod);
         TextView recipe = recipe_window.findViewById(R.id.rec);
         TextView name = recipe_window.findViewById(R.id.Name);
         author.setText("Автор: "+recipeModel.getAuthor());
         recipe.setText("Рецепт: "+recipeModel.getRecipe());
         name.setText(recipeModel.getName());
+
+        Retrofit retrofit = new Retrofit.Builder().baseUrl(DB_URI).addConverterFactory(GsonConverterFactory.create()).build();
+        RestApi service = retrofit.create(RestApi.class);
+
+        Call<List<ProductsModel>> call = service.getAllProducts();
+
+        call.enqueue(new Callback<List<ProductsModel>>() {
+            @Override
+            public void onResponse(Call<List<ProductsModel>> call, Response<List<ProductsModel>> response) {
+                System.out.println(response.raw());
+                for(int i = 0;i<response.body().size();i++) {
+                    for (int j = 0; j < data.get(data.size() - listPosition - 1).getProducts().length; j++) {
+                        if (response.body().get(i).getId() == data.get(data.size() - listPosition - 1).getProducts()[j]) {
+                            s += response.body().get(i).getName() + "\n";
+                        }
+                    }
+                }
+                products.setText("Необходимые продукты:\n"+s);
+                s="";
+            }
+            @Override
+            public void onFailure(Call<List<ProductsModel>> call, Throwable t) {
+
+            }
+        });
 
         author.setOnClickListener(new View.OnClickListener() {
             @Override
