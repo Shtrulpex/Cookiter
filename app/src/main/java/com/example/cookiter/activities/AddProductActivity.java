@@ -62,6 +62,8 @@ public class AddProductActivity  extends AppCompatActivity {
                         i.putExtra("idL", idL);
                         i.putExtra("k", true);
                         i.putExtra("login", getIntent().getStringExtra("login"));
+                        i.putExtra("name", getIntent().getStringExtra("name"));
+                        i.putExtra("body", getIntent().getStringExtra("body"));
                         startActivity(i);
                     }
                 });

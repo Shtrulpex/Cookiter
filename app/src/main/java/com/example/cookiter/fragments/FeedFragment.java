@@ -36,9 +36,6 @@ public class FeedFragment extends Fragment {
         rv.setLayoutManager(llm);
 
         recipes = new ArrayList<>();
-        recipes.add(new RecipeModel("Варить 10 минут", "Варёное яйцо", "Traggy", new Integer[]{1}));
-        recipes.add(new RecipeModel("Варить 5 минут", "Варёное яйцо", "Traggy", new Integer[]{1}));
-        recipes.add(new RecipeModel("Варить 1 минут", "Варёное яйцо", "Traggy", new Integer[]{1}));
 
         adapter = new RVFeedAdapter(recipes);
         rv.setAdapter(adapter);

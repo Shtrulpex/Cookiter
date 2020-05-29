@@ -1,6 +1,7 @@
 package com.example.cookiter;
 
 import com.example.cookiter.models.ProductsModel;
+import com.example.cookiter.models.RecipeModel;
 import com.example.cookiter.models.TrueFalseModel;
 import com.example.cookiter.models.UserModel;
 
@@ -11,6 +12,7 @@ import retrofit2.http.Body;
 import retrofit2.http.GET;
 import retrofit2.http.HTTP;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Query;
 
 public interface RestApi {
@@ -31,6 +33,12 @@ public interface RestApi {
 
     @GET("/user/getUserByLog")
     Call<UserModel> getUserByLog(@Query("login") String login);
+
+    @POST("/rec/create")
+    Call<RecipeModel> createRecipe(@Body RecipeModel recipes1);
+
+    @PUT("/pr/update")
+    Call<TrueFalseModel> updateProduct(@Query("id") Integer id, @Query("recipeId") Integer recipeId);
 
 
 }
