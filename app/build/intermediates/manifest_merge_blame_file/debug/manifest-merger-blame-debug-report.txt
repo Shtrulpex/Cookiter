@@ -29,40 +29,41 @@
 19-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:11:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:12:9-35
-21        android:theme="@style/AppTheme" >
-21-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:13:9-40
-22        <activity android:name="com.example.cookiter.activities.StartActivity" >
-22-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:9-21:20
-22-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:19-59
-23            <intent-filter>
-23-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:16:13-20:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:17-69
-24-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:17-77
-26-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:27-74
-27            </intent-filter>
-28        </activity>
-29        <activity android:name="com.example.cookiter.activities.RegisterActivity" />
-29-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:9-65
-29-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:19-62
-30        <activity android:name="com.example.cookiter.activities.SignInActivity" />
-30-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:9-63
-30-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:19-60
-31        <activity android:name="com.example.cookiter.activities.MainActivity" />
-31-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:9-60
-31-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:19-58
-32        <activity android:name="com.example.cookiter.activities.AddRecipeActivity" />
-32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:9-65
-32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:19-63
-33        <activity android:name="com.example.cookiter.activities.AddProductActivity" />
-33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:26:9-66
-33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:26:19-64
-34        <activity android:name="com.example.cookiter.activities.OtherProfileActivity" />
-34-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:27:9-68
-34-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:27:19-66
-35    </application>
-36
-37</manifest>
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.cookiter.activities.StartActivity" >
+23-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:9-21:20
+23-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:15:19-59
+24            <intent-filter>
+24-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:17-69
+25-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:17-77
+27-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity android:name="com.example.cookiter.activities.RegisterActivity" />
+30-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:9-65
+30-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:22:19-62
+31        <activity android:name="com.example.cookiter.activities.SignInActivity" />
+31-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:9-63
+31-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:23:19-60
+32        <activity android:name="com.example.cookiter.activities.MainActivity" />
+32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:9-60
+32-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:24:19-58
+33        <activity android:name="com.example.cookiter.activities.AddRecipeActivity" />
+33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:9-65
+33-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:25:19-63
+34        <activity android:name="com.example.cookiter.activities.AddProductActivity" />
+34-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:26:9-66
+34-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:26:19-64
+35        <activity android:name="com.example.cookiter.activities.OtherProfileActivity" />
+35-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:27:9-68
+35-->C:\Users\Shtrulpex\AndroidStudioProjects\Cookiter\app\src\main\AndroidManifest.xml:27:19-66
+36    </application>
+37
+38</manifest>
